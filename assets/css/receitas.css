@@ -1,0 +1,14 @@
+.receitas {
+  display: flex;
+  background-color: #e5e5e5;
+  flex-wrap: wrap;
+  padding: 5rem 0 0 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .receitas {
+    flex-direction: column;
+    padding: 2rem 1rem 2rem 1rem;
+    align-items: center;
+  }
+}

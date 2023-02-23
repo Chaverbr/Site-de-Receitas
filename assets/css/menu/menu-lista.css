@@ -1,0 +1,15 @@
+.menu__lista {
+  display: flex;
+  list-style: none;
+}
+
+.menu__lista:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 380px) {
+  .menu__lista {
+    flex-flow: column wrap;
+
+  }
+}
